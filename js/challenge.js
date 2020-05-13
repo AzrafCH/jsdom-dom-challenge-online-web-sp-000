@@ -6,5 +6,5 @@ const pause = document.getElementById('pause')
 const likes = document.getElementsByClassName('likes')
 
 function timer(seconds) {
-  
+
 }
