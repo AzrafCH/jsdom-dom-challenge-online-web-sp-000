@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const comments = document.getElementById('comment-form')
   //minus button
   minus.addEventListener("click", function(e){
-    minus.innerText = --;
+    minus.innerText = count--;
   });
 
   //plus button
   plus.addEventListener("click", function(e){
-    plus.innerText++;
+    plus.innerText = ++;
   });
 
   //pause button
