@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //minus button
   minus.addEventListener("click", function(e){
-    count--;
+    counter.innerText--;
   });
 
   //plus button
