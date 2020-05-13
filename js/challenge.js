@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //minus button
   minus.addEventListener("click", function(e){
-    minus.innerText = count - 1;
+    count--;
   });
 
   //plus button
   plus.addEventListener("click", function(e){
-    plus.innerText = count + 1;
+    count + 1;
   });
 
   //pause button
