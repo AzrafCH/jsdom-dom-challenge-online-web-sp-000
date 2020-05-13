@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     likes.innerHTML += `<li id= "${counter.innerText}">${counter.innerText} is liked ${counter.innerText} times.</li>`
   });
 
-  //coments 
+  //coments
   submit.addEventListener("click", function(e) {
     e.preventDefault();
     let comment = document.querySelector("#comment-form > input[type=text]").value
