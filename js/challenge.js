@@ -1,9 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  const counter = document.getElementById('counter')
+
+  let count = setInterval(function () {
+    counter.innerText++
+  }, 1000);
 
 
   // Dom elements
-  const counter = document.getElementById('counter')
   const minus = document.getElementById('minus')
   const plus = document.getElementById('plus')
   const heart = document.getElementById('heart')
