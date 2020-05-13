@@ -33,11 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
       pause.innerText = "resume";
       clearInterval(count);
 
-      minus.disable = true;
-      plus.disable = true;
-      heart.disable = true;
-      submit.disable = true;
-      likes.disable = true;
+      minus.disabled = true;
+      plus.disabled = true;
+      heart.disabled = true;
+      submit.disabled = true;
+      likes.disabled = true;
     }
     else {
       count = setInterval(function () {
@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1000);
       pause.innerText = "pause";
 
-      minus.disable = false;
-      plus.disable = false;
-      heart.disable = false;
-      submit.disable = false;
-      likes.disable = false;
+      minus.disabled = false;
+      plus.disabled = false;
+      heart.disabled = false;
+      submit.disabled = false;
+      likes.disabled = false;
     }
   });
 
