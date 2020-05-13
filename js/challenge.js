@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   submit.addEventListener("click", function(e) {
     e.preventDefault();
     let comment = document.querySelector("#comment-form > input[type=text]").value
-    commentList.innerHTML += `<li>${comment}</li>`
+    comments.innerHTML += `<li>${comment}</li>`
     document.querySelector("#comment-form").reset();
   });
 
