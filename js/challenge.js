@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //plus button
   plus.addEventListener("click", function(e){
-    count + 1;
+    count++;
   });
 
   //pause button
