@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       minus.disable = true;
       plus.disable = true;
-      heart.disable = true; 
-      likes.disable = true; 
-    } 
+      heart.disable = true;
+      likes.disable = true;
+    }
     else {
-      
+
     }
   })
 });
