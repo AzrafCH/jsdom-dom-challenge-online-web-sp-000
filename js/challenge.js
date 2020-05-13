@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const comments = document.getElementById('comment-form')
   //minus button
   minus.addEventListener("click", function(e){
-    minus.innerText--;
+    minus.innerText = --;
   });
 
   //plus button
@@ -50,5 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       submit.disable = false;
       likes.disable = false;
     }
-  })
+  });
+
+
 });
