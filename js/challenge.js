@@ -5,6 +5,6 @@ const heart = document.getElementById('heart')
 const pause = document.getElementById('pause')
 const likes = document.getElementsByClassName('likes')
 
-function timer(likes) {
-
+function timer(seconds) {
+  
 }
