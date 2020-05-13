@@ -16,9 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const likes = document.getElementsByClassName('likes');
   const submit = document.getElementById('submit')
   const comments = document.getElementById('comment-form')
+
   //minus button
   minus.addEventListener("click", function(e){
-    minus.innerText = count--;
+    minus.innerText = count - 1;
   });
 
   //plus button
