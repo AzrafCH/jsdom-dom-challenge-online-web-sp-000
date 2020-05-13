@@ -9,12 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   // Dom elements
-  const minus = document.getElementById('minus')
-  const plus = document.getElementById('plus')
-  const heart = document.getElementById('heart')
-  const pause = document.getElementById('pause')
-  const likes = document.getElementsByClassName('likes')
-
+  const minus = document.getElementById('minus');
+  const plus = document.getElementById('plus');
+  const heart = document.getElementById('heart');
+  const pause = document.getElementById('pause');
+  const likes = document.getElementsByClassName('likes');
+  const submit = document.getElementById('submit')
+  const comments = document.getElementById('comment-form')
   //minus button
   minus.addEventListener("click", function(e){
     minus.innerText--;
@@ -26,5 +27,18 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   //pause button
+  pause.addEventListener("click", function(e) {
+    if (pause.innerText === "pause"){
+      pause.innerText = "resume";
+      clearInterval(count);
 
+      minus.disable = true;
+      plus.disable = true;
+      heart.disable = true; 
+      likes.disable = true; 
+    } 
+    else {
+      
+    }
+  })
 });
