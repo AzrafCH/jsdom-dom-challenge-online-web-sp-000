@@ -35,10 +35,20 @@ document.addEventListener("DOMContentLoaded", () => {
       minus.disable = true;
       plus.disable = true;
       heart.disable = true;
+      submit.disable = true;
       likes.disable = true;
     }
     else {
+      count = setInterval(function () {
+        counter.innerText++;
+      }, 1000);
+      pause.innerText = "pause";
 
+      minus.disable = false;
+      plus.disable = false;
+      heart.disable = false;
+      submit.disable = false;
+      likes.disable = false;
     }
   })
 });
