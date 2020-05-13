@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  
+
 
   // Dom elements
   const counter = document.getElementById('counter')
