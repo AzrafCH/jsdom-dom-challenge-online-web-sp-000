@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   heart.addEventListener("click", function(e) {
     let obj = document.getElementById(`${counter.innerText}`);
     obj ? obj.children[0].innerText++ :
-    likes.innerHTML += `<li id=${counter.innerText}>${counter.innerText} is liked <span id=${counter.innerText}>1</span> times.</li>`
+    likes.innerHTML += `<li id= "${counter.innerText}">${counter.innerText} is liked <span id=${counter.innerText}>1</span> times.</li>`
   });
 
 });
